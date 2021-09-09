@@ -1,0 +1,14 @@
+.main-div{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.form-div{
+    margin-top: 10%;
+}
+.custom-card{
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.24);
+    padding: 20px;
+    width: 400px;
+}

@@ -1,0 +1,31 @@
+<div class="main-div">
+    <div class="form-div">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" [src]="userDetails?.photoUrl" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{userDetails?.firstName}}</h5>
+              <p class="card-text">{{userDetails?.name}}</p>
+              <p class="card-text">{{userDetails?.email}}</p>
+              <div class="text-center">
+                <button class="btn btn-danger" (click)="logout()"><i class="fa fa-power-off" aria-hidden="true"></i>&nbsp;&nbsp;Google</button>
+            </div>
+            </div>
+          
+               
+           
+          </div>
+        <!-- <div class="custom-card">
+           <div class="p-2">
+            <h2>Name:</h2>
+            <h4>Email:</h4>
+           </div>
+          
+            <hr>
+            <div class="d-flex justify-content-center pt-2">
+                <div>
+                    <button class="btn btn-danger" (click)="logout()"><i class="fa fa-power-off" aria-hidden="true"></i>&nbsp;&nbsp;Google</button>
+                </div>
+            </div>
+          </div> -->
+    </div>
+</div>

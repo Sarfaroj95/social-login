@@ -1,0 +1,30 @@
+<!-- <h1>Social Login</h1>
+<button (click)="signin()">Google</button>
+<button class="btn btn-primary">Google</button> -->
+
+<div class="main-div">
+        <div class="form-div">
+            <div class="custom-card">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group pt-2">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="pt-3">
+                    <button type="submit" class="btn btn-dark" (click)="submit()">Login</button>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-around pt-2">
+                    <div>
+                        <button class="btn btn-danger" (click)="signin()"><i class="fa fa-google" aria-hidden="true"></i>&nbsp;&nbsp;Google</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-primary" (click)="fbLogin()"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp;&nbsp;Facebook</button>
+                    </div>
+                </div>
+              </div>
+        </div>
+</div>
