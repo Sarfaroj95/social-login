@@ -31,12 +31,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              '646222606540-huq4ivojvs86rkdn6v0g18jbe0pqprg9.apps.googleusercontent.com'
+              'your google key'
             )
           },
           {
             id: FacebookLoginProvider.PROVIDER_ID,
-            provider: new FacebookLoginProvider('816138609318282')
+            provider: new FacebookLoginProvider('Your fasebook key')
           }
         ]
       } as SocialAuthServiceConfig,
